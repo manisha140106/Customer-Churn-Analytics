@@ -18,7 +18,7 @@ st.title("📊 Customer Segmentation & Churn Analytics")
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv('C:/Users/manis/Downloads/European_Bank.csv')
+    df = pd.read_csv('European_Bank.csv')
     
     # Data Cleaning
     df.drop(['Surname'], axis=1, inplace=True)
